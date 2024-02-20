@@ -15,6 +15,35 @@
             font-size: 16px;
             font-family: arial;
         }
+
+        .outer{
+            width: 100%;
+            background-color: darkcyan;
+            text-align: center;
+            display: flex;
+            padding: 200px 0px 200px 0px;
+        }
+        
+        .inner-left, .inner-right, .inner-center{
+            width: 30%;
+            text-align: center;
+            background-color: #eee;
+            padding: 100px 0px 100px 0px;
+        }
+
+        .inner-left{
+            margin-left: 3%;
+        }
+
+        .inner-right{
+            margin-right: 3%;
+        }
+
+        .inner-center{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
     </style>
 </head>
 <body>
@@ -48,5 +77,26 @@
     <span style="color:red;">
         <i>Note:    The heading and the paragraph was made before pushing it to the github.</i>
     </span>
+    <br>
+    <span style="color:red;">
+        <i>Note:    Following things are added in the remote repositery</i>
+    </span>
+
+    <div class ="outer">
+
+        <div class ="inner-left">
+            This is sample div box 1
+        </div>
+
+        <div class ="inner-center">
+            This is sample div box 2
+        </div>
+
+        <div class ="inner-right">
+            This is sample div box 3
+        </div>
+
+    </div>
+    
 </body>
 </html>
